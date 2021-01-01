@@ -15,6 +15,42 @@
         <title>MetalBrewz - A Haze in the Northern Sky</title>
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand" href="#">MetalBrewz</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Store (coming soon)</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+        
         <header class="jumbotron jumbotron-fluid">
             <div class="container">
                 <div class="row row-content align-items-center">
@@ -27,7 +63,15 @@
         </header>
 
         <div class="container">
-            <div class="row">
+            <div class="row row-content align-items-center">
+                <div class="col">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home </a></li>
+                        <li class="breadcrumb-item active">About </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row row-content align-items-center">
                 <div class="col-sm-4 col-md-3">
                     <h2>About</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae efficitur ipsum. Ut ultrices nibh quis odio euismod varius et venenatis dolor. Quisque eget placerat arcu, quis maximus turpis. Suspendisse elementum felis felis, et tempor urna gravida eu. Aenean vitae neque sed tellus porta consequat eget at libero. Sed ipsum dui, consequat vel mollis id, sagittis sit amet purus. Duis cursus nisl sit amet venenatis tincidunt. Donec nec lorem consequat, consequat tortor at, efficitur lorem. In eleifend erat leo, in facilisis tortor iaculis id.
@@ -54,6 +98,7 @@
                 </div>
             </div>
         </div>
+
         <footer class="site-footer">
             <div class="container">
                 <div class="row">
