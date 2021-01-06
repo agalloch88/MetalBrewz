@@ -48,3 +48,18 @@ footer {
     border-bottom: 1px ridge;
     min-height: 200px;
 }
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #000000;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
